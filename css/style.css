@@ -1,0 +1,74 @@
+/*
+
+@media screen and (min-width: 400px) {
+	body{ background-color: green;
+	 }
+}
+
+@media screen and (max-width: 400px) {
+	body{ background-color: blue;
+	 }
+}
+
+*/
+
+/*-------------------------------------*/
+
+body {background-color: blue;
+border: solid #2F4F4F 20px;
+}
+
+
+.maincontainer {
+	width: 80%;
+	height: 400px;
+	background-image: url(../images/driftaway.PNG);
+	background-repeat: no-repeat;
+	margin-left: 25%;
+}      
+
+/* CODE DOESNT WORK
+.parent1 {
+	display: flex;
+}
+
+.maincontainer1 {
+	justify-content: center;
+}
+*/
+
+/*This enlarges the image. Check HTML for paired up code*/
+
+img.expand {width: 20em;}
+
+.parent {
+	display: flex;
+}
+
+.innercontainer1 {
+	justify-content: flex-start;
+	width: 30%;
+}
+
+.center1 {
+	justify-content: center;
+	width: 37%;
+}
+
+.innercontainer2 {
+	justify-content: flex-end;
+	width: 33%;
+}
+
+@media screen and (max-width: 400px) {
+	body {
+		flex-wrap: wrap-reverse;
+	}
+}
+
+
+.parent2 {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
